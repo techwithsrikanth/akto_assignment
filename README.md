@@ -1,8 +1,9 @@
-'''
-first run 'interactsh-client' through this in one of the terminal
-then run 'interactsh-client -server' oast.pro
-go to the URL that will be given below once you run both these
-then go to https://app.interactsh.com/#/   
+First run 'interactsh-client' through this in one of the terminal
+
+Then run 'interactsh-client -server' oast.pro
+
+Go to the URL that will be given below once you run both these
+Then go to https://app.interactsh.com/#/   
 here run your server URL that you got through running in the terminal
 our client will be connected to server, now we can fetch all the timestamps and caller_ip..
 
@@ -19,4 +20,4 @@ $response = Invoke-RestMethod -Uri "http://127.0.0.1:5000/api/getInteractions" -
 $response.interactions
 
 
-'''
+
